@@ -21,7 +21,6 @@ class Hangman:
             if word_to_find == well_guessed_letters:
                 print("Well Done!")
                 break
-
             print(f"You have : {lives} lives")
             user_input = input("Guess the letter:").upper()
             turn_count = turn_count + 1
@@ -37,15 +36,14 @@ class Hangman:
             else:
                 error_count = error_count + 1
                 lives = lives - 1
-                print("Sorry, but it is wrong!")
                 wrongly_guessed_letters.append(user_input)
-                print(f"Wrong letters: {wrongly_guessed_letters}")
+                print(f"Sorry ! you have entered the wrong letter : {wrongly_guessed_letters}")
 
         return well_guessed_letters, wrongly_guessed_letters, lives, error_count, turn_count
 
     def game_over(self, lives):
         if (lives) == 0:
-            print("Game Over!")
+            print("Game Over! : You have consumed all your lives")
 
     def well_played(self, well_guessed_letters, turn_count, error_count):
         if well_guessed_letters == self.word_to_find:
