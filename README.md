@@ -1,18 +1,17 @@
-# hangman
-
-Run Project using command: python main.py (in terminal)
+# Hangman
 
 Description of Project: Creating a Hangman game in Python          
 
-Project Editor: PyCharm (IDE)
-
-Knowlege used in project: Loops, OOPs, 
+Prequisites:
+- Python 3.9
+- OOPs
+- Loops
+- Project Editor: PyCharm (IDE)
+ 
 
 Timeline:26/01/2022 16:30
 
-
- 
-It was fun to combined the concept which we have learnt at BeCode so far. Looking forward for the feedback. 
+Creating a simple game to be played by the users in terminal. The project includes the knowledge of Class, objects, methods, lists, terminal all together.
 
 
 
